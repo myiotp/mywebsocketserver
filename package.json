@@ -1,0 +1,25 @@
+{
+  "name": "mywebsocketserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "node-mysql": "^0.4.2",
+    "ws": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myiotp/mywebsocketserver.git"
+  },
+  "author": "",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/myiotp/mywebsocketserver/issues"
+  },
+  "homepage": "https://github.com/myiotp/mywebsocketserver#readme"
+}
