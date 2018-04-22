@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "dependencies": {
+    "mysql": "^2.15.0",
     "node-mysql": "^0.4.2",
     "ws": "^5.0.0"
   },

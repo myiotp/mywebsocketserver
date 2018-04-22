@@ -1,5 +1,7 @@
 var mysql = require('mysql');  
 var table = 'machineryxy';    //表名  
+console.log(process.env.mysqlhost);
+console.log(process.env.password);
 
 var pool = mysql.createPool({
     host: process.env.mysqlhost,

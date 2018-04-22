@@ -5,9 +5,10 @@ var query=require("./mysql.js");
 wss.on('connection', function connection(ws) {
   ws.on('message', function incoming(message) {
     console.log('received: %s', message);
+    //ws.send(message);
     var json = JSON.parse(message);
     var lat = json.t;
-    console.log("lat:" + lat);
+    
     var sqlStr = "";  
     //插入多条sql语句  
     //为了防止sql注入攻击，使用connection对象的escape方法对用户输入的数据进行escape编码处理  
